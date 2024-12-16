@@ -1,0 +1,37 @@
+@import "bootstrap/scss/bootstrap";
+
+.dark {
+  color: black;
+}
+.mobile-menu {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  z-index: 1050;
+}
+.custom-bg-purple {
+  background-color: #6f42c1;
+  border-color: #6f42c1;
+}
+.btn {
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.custom-padding {
+  padding: 150px 120px;
+  @media screen and (max-width: 580px) {
+    padding: 100px 50px;
+  }
+}
+.text-white-custom {
+  color: white;
+}
+.bg-opacity-50-custom {
+  background-color: rgba(120, 120, 120, 0.086);
+}
+.text-danger-custom {
+  color: #c6303e;
+}
